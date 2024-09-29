@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Matikkapeli</title>
+</head>
+<body>
+    <div id="container">
+        <h3>Matikkapeli</h3>
+        <form>
+            <div>
+                <output id="num1"></output>&nbsp;+&nbsp;
+                <output id="num2"></output>&nbsp;=
+                <input type="number" id="user-answer" placeholder="Your answer" />
+            </div>
+            <div>
+                <button type="button" id="calculate">Vastaus</button>
+            </div>
+        </form>
+        <div class="scoreboard">
+            <p>Correct Answers: <span id="correct-answers">0</span></p>
+            <p>Incorrect Answers: <span id="incorrect-answers">0</span></p>
+        </div>    
+    </div>
+
+    <script src="./js/fuctions.js"></script>
+</body>
+</html>
